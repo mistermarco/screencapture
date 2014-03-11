@@ -169,3 +169,8 @@ To compare two images:
     compare image1.png image2.png diff.png
 
 This will produce a third image with annotations showing the differences between the pages. This could be used to spot quickly if a website has changed, and where.
+
+## TODO
+
+* script the various solutions to act on multiple websites
+* test the Python bindings for ImageMagick
