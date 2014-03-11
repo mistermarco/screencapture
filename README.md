@@ -66,6 +66,7 @@ By default, webkit2png creates 3 images (full, clipped and thumbnail). It also l
 
 * webkit only
 * mac os x only
+* will append -full.png to the name of your image
 
 ## Use Selenium + Python + Firefox
 
@@ -154,3 +155,17 @@ It's possible to use PhantomJS with Selenium:
     driver.get("https://itservices.stanford.edu")
     driver.save_screenshot('selenium-test.png')
     driver.quit()
+
+## Testing images
+
+ImageMagick (http://www.imagemagick.org/) is a suite of tools for manipulating images. Part of the package is the _compare_ command whic will take two images and compare them to determine if they are different.
+
+To install:
+
+    brew install imagemagick
+
+To compare two images:
+
+    compare image1.png image2.png diff.png
+
+This will produce a third image with annotations showing the differences between the pages. This could be used to spot quickly if a website has changed, and where.
