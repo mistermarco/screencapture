@@ -13,7 +13,7 @@ The command 'open' allows you to open a URL in the default browser. For example:
 
     open https://www.google.com
 
-The command ‘screencapture’ allows a screenshot of the desktop. For example:
+The command 'screencapture' allows a screenshot of the desktop. For example:
 
     screencapture ~/Desktop/screenshot.jpg
 
