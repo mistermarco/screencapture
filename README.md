@@ -9,7 +9,7 @@ Installation of some of these programs can be done quickly on a Mac using Homebr
 
 ## Using Built-in Mac OS X programs
 
-The command ‘open’ allows you to open a URL in the default browser. For example:
+The command 'open' allows you to open a URL in the default browser. For example:
 
     open https://www.google.com
 
